@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7277138329C10481007AAF60 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277138129C10481007AAF60 /* VideoCell.swift */; };
+		7277138429C10481007AAF60 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7277138229C10481007AAF60 /* VideoCell.xib */; };
+		7277138729C10570007AAF60 /* VideoVC+CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277138629C10570007AAF60 /* VideoVC+CollectionExtension.swift */; };
+		7277138A29C1085C007AAF60 /* VideoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277138829C1085C007AAF60 /* VideoListCell.swift */; };
+		7277138B29C1085C007AAF60 /* VideoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7277138929C1085C007AAF60 /* VideoListCell.xib */; };
+		7277138F29C11ED3007AAF60 /* AppTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277138E29C11ED3007AAF60 /* AppTabBar.swift */; };
+		7277139129C121A0007AAF60 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277139029C121A0007AAF60 /* TabBarVC.swift */; };
+		7277139529C12524007AAF60 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7277139429C12524007AAF60 /* Constant.swift */; };
+		72BFC39629C1B19A00F04AE9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BFC39529C1B19A00F04AE9 /* Alert.swift */; };
+		72F4D2C529C097B4008E85BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2C429C097B4008E85BE /* AppDelegate.swift */; };
+		72F4D2C729C097B4008E85BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2C629C097B4008E85BE /* SceneDelegate.swift */; };
+		72F4D2CC29C097B4008E85BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F4D2CA29C097B4008E85BE /* Main.storyboard */; };
+		72F4D2CE29C097B5008E85BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F4D2CD29C097B5008E85BE /* Assets.xcassets */; };
+		72F4D2D129C097B5008E85BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72F4D2CF29C097B5008E85BE /* LaunchScreen.storyboard */; };
+		72F4D2DC29C097B5008E85BE /* JioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2DB29C097B5008E85BE /* JioTests.swift */; };
+		72F4D2E629C097B5008E85BE /* JioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2E529C097B5008E85BE /* JioUITests.swift */; };
+		72F4D2E829C097B5008E85BE /* JioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2E729C097B5008E85BE /* JioUITestsLaunchTests.swift */; };
+		72F4D2FB29C09825008E85BE /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2FA29C09825008E85BE /* HomeVC.swift */; };
+		72F4D2FE29C0A304008E85BE /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 72F4D2FD29C0A304008E85BE /* Algorithms */; };
+		72F4D30029C0A55F008E85BE /* VRAppsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D2FF29C0A55F008E85BE /* VRAppsVC.swift */; };
+		72F4D30429C0A5CB008E85BE /* VideoListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D30329C0A5CB008E85BE /* VideoListVC.swift */; };
+		72F4D30729C0E8EB008E85BE /* CustomizableSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D30629C0E8EB008E85BE /* CustomizableSegmentControl.swift */; };
+		72F4D30B29C0EE1F008E85BE /* HBSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D30A29C0EE1F008E85BE /* HBSegmentedControl.swift */; };
+		72F4D30D29C0F17A008E85BE /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D30C29C0F17A008E85BE /* UIView+Extension.swift */; };
+		72F4D31129C0FA2D008E85BE /* VRAppsVC+CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D31029C0FA2D008E85BE /* VRAppsVC+CollectionExtension.swift */; };
+		72F4D31529C0FB16008E85BE /* LiveUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F4D31429C0FB16008E85BE /* LiveUserCell.xib */; };
+		72F4D31729C0FC16008E85BE /* LiveUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F4D31629C0FC16008E85BE /* LiveUserCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72F4D2D829C097B5008E85BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F4D2B929C097B4008E85BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F4D2C029C097B4008E85BE;
+			remoteInfo = Jio;
+		};
+		72F4D2E229C097B5008E85BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F4D2B929C097B4008E85BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F4D2C029C097B4008E85BE;
+			remoteInfo = Jio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7277138129C10481007AAF60 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		7277138229C10481007AAF60 /* VideoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		7277138629C10570007AAF60 /* VideoVC+CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VideoVC+CollectionExtension.swift"; sourceTree = "<group>"; };
+		7277138829C1085C007AAF60 /* VideoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListCell.swift; sourceTree = "<group>"; };
+		7277138929C1085C007AAF60 /* VideoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoListCell.xib; sourceTree = "<group>"; };
+		7277138E29C11ED3007AAF60 /* AppTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBar.swift; sourceTree = "<group>"; };
+		7277139029C121A0007AAF60 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		7277139429C12524007AAF60 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		72BFC39529C1B19A00F04AE9 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		72F4D2C129C097B4008E85BE /* Jio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F4D2C429C097B4008E85BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72F4D2C629C097B4008E85BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72F4D2CB29C097B4008E85BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72F4D2CD29C097B5008E85BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72F4D2D029C097B5008E85BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72F4D2D229C097B5008E85BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72F4D2D729C097B5008E85BE /* JioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F4D2DB29C097B5008E85BE /* JioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JioTests.swift; sourceTree = "<group>"; };
+		72F4D2E129C097B5008E85BE /* JioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F4D2E529C097B5008E85BE /* JioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JioUITests.swift; sourceTree = "<group>"; };
+		72F4D2E729C097B5008E85BE /* JioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72F4D2FA29C09825008E85BE /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		72F4D2FF29C0A55F008E85BE /* VRAppsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRAppsVC.swift; sourceTree = "<group>"; };
+		72F4D30329C0A5CB008E85BE /* VideoListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListVC.swift; sourceTree = "<group>"; };
+		72F4D30629C0E8EB008E85BE /* CustomizableSegmentControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizableSegmentControl.swift; sourceTree = "<group>"; };
+		72F4D30A29C0EE1F008E85BE /* HBSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBSegmentedControl.swift; sourceTree = "<group>"; };
+		72F4D30C29C0F17A008E85BE /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		72F4D31029C0FA2D008E85BE /* VRAppsVC+CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VRAppsVC+CollectionExtension.swift"; sourceTree = "<group>"; };
+		72F4D31429C0FB16008E85BE /* LiveUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveUserCell.xib; sourceTree = "<group>"; };
+		72F4D31629C0FC16008E85BE /* LiveUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveUserCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F4D2BE29C097B4008E85BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F4D2FE29C0A304008E85BE /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F4D2D429C097B5008E85BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F4D2DE29C097B5008E85BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		721B36F429C1F4AE00480C7F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		721B36F529C1F4C200480C7F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2FA29C09825008E85BE /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		721B36F629C1F4CE00480C7F /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7277139029C121A0007AAF60 /* TabBarVC.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		7277138529C10521007AAF60 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D30329C0A5CB008E85BE /* VideoListVC.swift */,
+				7277138629C10570007AAF60 /* VideoVC+CollectionExtension.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		7277139229C12503007AAF60 /* Utillity */ = {
+			isa = PBXGroup;
+			children = (
+				7277139429C12524007AAF60 /* Constant.swift */,
+			);
+			path = Utillity;
+			sourceTree = "<group>";
+		};
+		72BFC39429C1B19A00F04AE9 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				72BFC39529C1B19A00F04AE9 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		72F4D2B829C097B4008E85BE = {
+			isa = PBXGroup;
+			children = (
+				72F4D2C329C097B4008E85BE /* Jio */,
+				72F4D2DA29C097B5008E85BE /* JioTests */,
+				72F4D2E429C097B5008E85BE /* JioUITests */,
+				72F4D2C229C097B4008E85BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72F4D2C229C097B4008E85BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2C129C097B4008E85BE /* Jio.app */,
+				72F4D2D729C097B5008E85BE /* JioTests.xctest */,
+				72F4D2E129C097B5008E85BE /* JioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F4D2C329C097B4008E85BE /* Jio */ = {
+			isa = PBXGroup;
+			children = (
+				7277139229C12503007AAF60 /* Utillity */,
+				72F4D30529C0E892008E85BE /* Components */,
+				72F4D2F529C097D2008E85BE /* Home */,
+				72F4D2F429C097C8008E85BE /* Common */,
+				72F4D2CD29C097B5008E85BE /* Assets.xcassets */,
+				72F4D2CF29C097B5008E85BE /* LaunchScreen.storyboard */,
+				72F4D2D229C097B5008E85BE /* Info.plist */,
+			);
+			path = Jio;
+			sourceTree = "<group>";
+		};
+		72F4D2DA29C097B5008E85BE /* JioTests */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2DB29C097B5008E85BE /* JioTests.swift */,
+			);
+			path = JioTests;
+			sourceTree = "<group>";
+		};
+		72F4D2E429C097B5008E85BE /* JioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2E529C097B5008E85BE /* JioUITests.swift */,
+				72F4D2E729C097B5008E85BE /* JioUITestsLaunchTests.swift */,
+			);
+			path = JioUITests;
+			sourceTree = "<group>";
+		};
+		72F4D2F429C097C8008E85BE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2C429C097B4008E85BE /* AppDelegate.swift */,
+				72F4D2C629C097B4008E85BE /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		72F4D2F529C097D2008E85BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2F929C097F3008E85BE /* View */,
+				72F4D2F829C097ED008E85BE /* Model */,
+				72F4D2F729C097E5008E85BE /* ViewModel */,
+				72F4D2F629C097DB008E85BE /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		72F4D2F629C097DB008E85BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				721B36F629C1F4CE00480C7F /* Tabbar */,
+				721B36F529C1F4C200480C7F /* Home */,
+				721B36F429C1F4AE00480C7F /* New Group */,
+				7277138529C10521007AAF60 /* Video */,
+				72F4D30F29C0F9F4008E85BE /* VRApps */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		72F4D2F729C097E5008E85BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		72F4D2F829C097ED008E85BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72F4D2F929C097F3008E85BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D31329C0FACF008E85BE /* Cell */,
+				72F4D2CA29C097B4008E85BE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72F4D30529C0E892008E85BE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72BFC39429C1B19A00F04AE9 /* Alert */,
+				72F4D30C29C0F17A008E85BE /* UIView+Extension.swift */,
+				72F4D30629C0E8EB008E85BE /* CustomizableSegmentControl.swift */,
+				72F4D30A29C0EE1F008E85BE /* HBSegmentedControl.swift */,
+				7277138E29C11ED3007AAF60 /* AppTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		72F4D30F29C0F9F4008E85BE /* VRApps */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D2FF29C0A55F008E85BE /* VRAppsVC.swift */,
+				72F4D31029C0FA2D008E85BE /* VRAppsVC+CollectionExtension.swift */,
+			);
+			path = VRApps;
+			sourceTree = "<group>";
+		};
+		72F4D31329C0FACF008E85BE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				72F4D31629C0FC16008E85BE /* LiveUserCell.swift */,
+				72F4D31429C0FB16008E85BE /* LiveUserCell.xib */,
+				7277138129C10481007AAF60 /* VideoCell.swift */,
+				7277138229C10481007AAF60 /* VideoCell.xib */,
+				7277138829C1085C007AAF60 /* VideoListCell.swift */,
+				7277138929C1085C007AAF60 /* VideoListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72F4D2C029C097B4008E85BE /* Jio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F4D2EB29C097B5008E85BE /* Build configuration list for PBXNativeTarget "Jio" */;
+			buildPhases = (
+				72F4D2BD29C097B4008E85BE /* Sources */,
+				72F4D2BE29C097B4008E85BE /* Frameworks */,
+				72F4D2BF29C097B4008E85BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jio;
+			packageProductDependencies = (
+				72F4D2FD29C0A304008E85BE /* Algorithms */,
+			);
+			productName = Jio;
+			productReference = 72F4D2C129C097B4008E85BE /* Jio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72F4D2D629C097B5008E85BE /* JioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F4D2EE29C097B5008E85BE /* Build configuration list for PBXNativeTarget "JioTests" */;
+			buildPhases = (
+				72F4D2D329C097B5008E85BE /* Sources */,
+				72F4D2D429C097B5008E85BE /* Frameworks */,
+				72F4D2D529C097B5008E85BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F4D2D929C097B5008E85BE /* PBXTargetDependency */,
+			);
+			name = JioTests;
+			productName = JioTests;
+			productReference = 72F4D2D729C097B5008E85BE /* JioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72F4D2E029C097B5008E85BE /* JioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F4D2F129C097B5008E85BE /* Build configuration list for PBXNativeTarget "JioUITests" */;
+			buildPhases = (
+				72F4D2DD29C097B5008E85BE /* Sources */,
+				72F4D2DE29C097B5008E85BE /* Frameworks */,
+				72F4D2DF29C097B5008E85BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F4D2E329C097B5008E85BE /* PBXTargetDependency */,
+			);
+			name = JioUITests;
+			productName = JioUITests;
+			productReference = 72F4D2E129C097B5008E85BE /* JioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F4D2B929C097B4008E85BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					72F4D2C029C097B4008E85BE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					72F4D2D629C097B5008E85BE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 72F4D2C029C097B4008E85BE;
+					};
+					72F4D2E029C097B5008E85BE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 72F4D2C029C097B4008E85BE;
+					};
+				};
+			};
+			buildConfigurationList = 72F4D2BC29C097B4008E85BE /* Build configuration list for PBXProject "Jio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72F4D2B829C097B4008E85BE;
+			packageReferences = (
+				72F4D2FC29C0A304008E85BE /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			productRefGroup = 72F4D2C229C097B4008E85BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F4D2C029C097B4008E85BE /* Jio */,
+				72F4D2D629C097B5008E85BE /* JioTests */,
+				72F4D2E029C097B5008E85BE /* JioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F4D2BF29C097B4008E85BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277138429C10481007AAF60 /* VideoCell.xib in Resources */,
+				72F4D31529C0FB16008E85BE /* LiveUserCell.xib in Resources */,
+				72F4D2D129C097B5008E85BE /* LaunchScreen.storyboard in Resources */,
+				7277138B29C1085C007AAF60 /* VideoListCell.xib in Resources */,
+				72F4D2CE29C097B5008E85BE /* Assets.xcassets in Resources */,
+				72F4D2CC29C097B4008E85BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F4D2D529C097B5008E85BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F4D2DF29C097B5008E85BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F4D2BD29C097B4008E85BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277138729C10570007AAF60 /* VideoVC+CollectionExtension.swift in Sources */,
+				72F4D30B29C0EE1F008E85BE /* HBSegmentedControl.swift in Sources */,
+				72F4D2FB29C09825008E85BE /* HomeVC.swift in Sources */,
+				72BFC39629C1B19A00F04AE9 /* Alert.swift in Sources */,
+				7277139529C12524007AAF60 /* Constant.swift in Sources */,
+				72F4D31729C0FC16008E85BE /* LiveUserCell.swift in Sources */,
+				72F4D30D29C0F17A008E85BE /* UIView+Extension.swift in Sources */,
+				72F4D2C529C097B4008E85BE /* AppDelegate.swift in Sources */,
+				72F4D31129C0FA2D008E85BE /* VRAppsVC+CollectionExtension.swift in Sources */,
+				7277139129C121A0007AAF60 /* TabBarVC.swift in Sources */,
+				7277138F29C11ED3007AAF60 /* AppTabBar.swift in Sources */,
+				72F4D30729C0E8EB008E85BE /* CustomizableSegmentControl.swift in Sources */,
+				7277138329C10481007AAF60 /* VideoCell.swift in Sources */,
+				7277138A29C1085C007AAF60 /* VideoListCell.swift in Sources */,
+				72F4D30429C0A5CB008E85BE /* VideoListVC.swift in Sources */,
+				72F4D30029C0A55F008E85BE /* VRAppsVC.swift in Sources */,
+				72F4D2C729C097B4008E85BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F4D2D329C097B5008E85BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F4D2DC29C097B5008E85BE /* JioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F4D2DD29C097B5008E85BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F4D2E629C097B5008E85BE /* JioUITests.swift in Sources */,
+				72F4D2E829C097B5008E85BE /* JioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72F4D2D929C097B5008E85BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F4D2C029C097B4008E85BE /* Jio */;
+			targetProxy = 72F4D2D829C097B5008E85BE /* PBXContainerItemProxy */;
+		};
+		72F4D2E329C097B5008E85BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F4D2C029C097B4008E85BE /* Jio */;
+			targetProxy = 72F4D2E229C097B5008E85BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72F4D2CA29C097B4008E85BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F4D2CB29C097B4008E85BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72F4D2CF29C097B5008E85BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F4D2D029C097B5008E85BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72F4D2E929C097B5008E85BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72F4D2EA29C097B5008E85BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72F4D2EC29C097B5008E85BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.Jio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72F4D2ED29C097B5008E85BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.Jio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72F4D2EF29C097B5008E85BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.JioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jio";
+			};
+			name = Debug;
+		};
+		72F4D2F029C097B5008E85BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.JioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jio";
+			};
+			name = Release;
+		};
+		72F4D2F229C097B5008E85BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.JioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jio;
+			};
+			name = Debug;
+		};
+		72F4D2F329C097B5008E85BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 29BJH2XM73;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jio.JioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F4D2BC29C097B4008E85BE /* Build configuration list for PBXProject "Jio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F4D2E929C097B5008E85BE /* Debug */,
+				72F4D2EA29C097B5008E85BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F4D2EB29C097B5008E85BE /* Build configuration list for PBXNativeTarget "Jio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F4D2EC29C097B5008E85BE /* Debug */,
+				72F4D2ED29C097B5008E85BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F4D2EE29C097B5008E85BE /* Build configuration list for PBXNativeTarget "JioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F4D2EF29C097B5008E85BE /* Debug */,
+				72F4D2F029C097B5008E85BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F4D2F129C097B5008E85BE /* Build configuration list for PBXNativeTarget "JioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F4D2F229C097B5008E85BE /* Debug */,
+				72F4D2F329C097B5008E85BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		72F4D2FC29C0A304008E85BE /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		72F4D2FD29C0A304008E85BE /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 72F4D2FC29C0A304008E85BE /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 72F4D2B929C097B4008E85BE /* Project object */;
+}

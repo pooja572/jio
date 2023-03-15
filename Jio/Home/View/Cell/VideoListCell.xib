@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VideoListCell" id="gTV-IL-0wX" customClass="VideoListCell" customModule="Jio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="151" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="151" height="130"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRd-eJ-AYL">
+                        <rect key="frame" x="0.0" y="0.0" width="151" height="130"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mask Group 41015" translatesAutoresizingMaskIntoConstraints="NO" id="pRv-fO-Oca">
+                                <rect key="frame" x="0.0" y="0.0" width="151" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="K8N-pu-TDi"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLO-Ac-hyy">
+                                <rect key="frame" x="5" y="93" width="141" height="14.333333333333329"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="CXn-6x-Zk6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="pRv-fO-Oca" secondAttribute="width" id="C8d-nY-n3P"/>
+                            <constraint firstItem="XLO-Ac-hyy" firstAttribute="centerX" secondItem="DRd-eJ-AYL" secondAttribute="centerX" id="Kza-bm-CmU"/>
+                            <constraint firstItem="XLO-Ac-hyy" firstAttribute="top" secondItem="pRv-fO-Oca" secondAttribute="bottom" constant="8" id="NMb-WH-xLt"/>
+                            <constraint firstItem="pRv-fO-Oca" firstAttribute="top" secondItem="DRd-eJ-AYL" secondAttribute="top" id="Pd2-Rd-X2Y"/>
+                            <constraint firstAttribute="trailing" secondItem="pRv-fO-Oca" secondAttribute="trailing" id="StE-Il-bfH"/>
+                            <constraint firstItem="pRv-fO-Oca" firstAttribute="leading" secondItem="DRd-eJ-AYL" secondAttribute="leading" id="hCu-ia-9bC"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="DRd-eJ-AYL" secondAttribute="bottom" id="8xo-7n-RdJ"/>
+                <constraint firstItem="DRd-eJ-AYL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fG7-FJ-FiC"/>
+                <constraint firstItem="DRd-eJ-AYL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="hHo-ya-PjH"/>
+                <constraint firstAttribute="trailing" secondItem="DRd-eJ-AYL" secondAttribute="trailing" id="uIP-cJ-RO6"/>
+            </constraints>
+            <size key="customSize" width="151" height="130"/>
+            <connections>
+                <outlet property="lblName" destination="XLO-Ac-hyy" id="AlD-mc-nyu"/>
+                <outlet property="videoImage" destination="pRv-fO-Oca" id="iVC-io-lYm"/>
+                <outlet property="viewVideo" destination="DRd-eJ-AYL" id="PO5-G5-GbN"/>
+            </connections>
+            <point key="canvasLocation" x="216.03053435114504" y="47.887323943661976"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Mask Group 41015" width="152" height="85"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
