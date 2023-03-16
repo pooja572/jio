@@ -112,13 +112,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		721B36F429C1F4AE00480C7F /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 		721B36F529C1F4C200480C7F /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,7 +229,6 @@
 			children = (
 				721B36F629C1F4CE00480C7F /* Tabbar */,
 				721B36F529C1F4C200480C7F /* Home */,
-				721B36F429C1F4AE00480C7F /* New Group */,
 				7277138529C10521007AAF60 /* Video */,
 				72F4D30F29C0F9F4008E85BE /* VRApps */,
 			);
